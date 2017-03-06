@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>MD Agency</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/w3schools.library.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+    body {
+        font: 20px 'Montserrat', sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .margin {
+        margin-bottom: 45px;
+    }
+    
+    .bg-1 {
+        background-color: #989898;
+        color: #000000;
+    }
+    
+    .bg-2 {
+        background-color: #2C2C2C;
+        color: #ffffff;
+    }
+    
+    .bg-3 {
+        background-color: #ffffff;
+        color: #555555;
+    }
+    
+    .bg-4 {
+        background-color: #3D6493;
+        color: #fff;
+    }
+    
+    .bg-5 {
+        background-color: #F0A416;
+        color: #fff;
+    }
+    
+    .bg-6 {
+        background-color: #001C3E;
+        color: #fff;
+    }
+    
+    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+        letter-spacing: 5px;
+        color: #fff;
+    }
+    
+    .navbar-header a {
+        font-size: 22px !important;
+        color: #fff !important;
+    }
+    
+    .navbar-nav li a:hover {
+        color: #E00004 !important;
+    }
+    
+    .navbar-nav li a {
+        color: #fff !important;
+    }
+    
+    h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    
+    .brand {
+        font-size: 60px;
+        font-family: 'Helvetica', sans-serif;
+        text-align: center;
+    }
+    
+    .btn-default:hover {
+        color: #fff !important;
+        background-color: #FF9239 !important;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .wrapper a {
+        text-decoration: none !important;
+    }
+    
+    .fa {
+        color: #C0C0C0;
+        width: 40px;
+        line-height: 40px;
+    }
+    
+    .fa:hover {
+        text-decoration: none;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .fa-facebook:hover {
+        color: #fff;
+        background-color: #1A2F55;
+    }
+    
+    .fa-twitter:hover {
+        color: #32CCFE;
+        background-color: #fff;
+    }
+    
+    .fa-instagram:hover {
+        color: #A1755C;
+        background-color: #530855;
+    }
+    
+    .fa-google-plus:hover {
+        color: #CF3D2E;
+        background-color: #fff;
+    }
+    
+    .fa-youtube-play:hover {
+        color: #C52F30;
+        background-color: #fff;
+    }
+    
+    .fa-pinterest:hover {
+        color: #CC2127;
+        background-color: #fff;
+    }
+    
+    .fa-linkedin:hover {
+        color: #0085AE;
+        background-color: #fff;
+    }
+    
+    footer p {
+        color: #fff;
+    }
+    
+    footer a {
+        color: #EA4300;
+    }
+    
+    footer a:hover {
+        color: #E00004;
+    }
+    
+    .glyphicon-chevron-up a:hover {
+        color: #E00004;
+    }
+    
+    .logo-small {
+        color: #001C3E;
+        font-size: 50px;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default bg-5">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand w3-container w3-center w3-animate-opacity" href="#MDAgency">MD Agency</a>
+            </div>
+            <div class="collapse navbar-collapse w3-container w3-center w3-animate-opacity" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid bg-1 text-left w3-container w3-center w3-animate-opacity bg-2" role="listbox">
+        <h3 class="brand">MDA</h3>
+        <br>
+        <p>We are a Digital Marketing Agency formed by a group of creative that employ the appropriate marketing techniques by using Internet platforms that can take your business to another level.</p>
+        <p>Take control to achieve the full potential of digital marketing, companies use social networks as their primary tool for creating an information channel creating a competitive advantage through various means.</p>
+        <br>
+        <buttom class="btn btn-default btn-lg">Get in Touch</buttom>
+    </div>
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid text-center bg-4">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small" style="color:#FFAA00;"></span>
+                <h4>POWER</h4>
+                <p>You have the power and we the tools to grow your business with the benefits of Social Media and Digital Marketing</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart logo-small" style="color:#E32200;"></span>
+                <h4>LOVE</h4>
+                <p>We love listening to customers to help them show their best products and services on internet</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <h4>JOB DONE</h4>
+                <p>We strive to work because all our customers deserve the total satisfaction.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf logo-small" style="color:#009B06;"></span>
+                <h4>GREEN</h4>
+                <p>Our Digital Marketing Strategies and Responsive Web design are Smoke Free.</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-certificate logo-small" style="color:#DBBE16;"></span>
+                <h4>CERTIFIED</h4>
+                <p>Our best certificate is to ensure that our customers achieve their goals.</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small" style="color: #6E2098;"></span>
+                <h4>HARD WORK</h4>
+                <p>We strive to work because all our customers deserve the total satisfaction.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid bg-1">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact me and I'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Upata, VE</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-success pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Social Section) -->
+    <div id="social" class="container-fluid text-center bg-3">
+        <div class="row">
+            <div class="wrapper">
+                <h4 class="plus" style="color: #000">Follow to MD Agency</h4>
+                <h3 class="brand" style="color: #000">MDA</h3>
+                <br>
+                <ul class="social-icons">
+                    <li>
+                        <a class="fa fa-facebook" aria-hidden="true" target="_blank" href="https://www.facebook.com/" style="font-size:25px;"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-twitter" aria-hidden="true" target="_blank" href="https://twitter.com/" style="font-size:25px;"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-instagram" aria-hidden="true" target="_blank" href="https://www.instagram.com/" style="font-size:25px;"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-google-plus" aria-hidden="true" target="_blank" href="https://plus.google.com/" style="font-size:25px;"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-youtube-play" aria-hidden="true" target="_blank" href="https://www.youtube.com/" style="font-size:25px;"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-pinterest" aria-hidden="true" target="_blank" href="https://www.pinterest.com/" style="font-size:25px;"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-linkedin" aria-hidden="true" target="_blank" href="https://www.linkedin.com/" style="font-size:25px;"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid text-center bg-6">
+        <a href="#myNavbar" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up" style="font-size: 30px;"></span>
+        </a>
+        <p>&copy; Copyright 2016 - 2017 Bootstrap Theme Made By <a href="http://www.w3schools.com" target="_blank">www.w3schools.com</a> and <a href="https://twitter.com/LuzneryVera" target="_blank"> @LuzneryVera</a> for <a href="https://www.coursera.org/learn/web-design-project" target="_blank"> Web Design for Everybody Capstone</a></p>
+    </footer>
+</body>
+
+</html>
