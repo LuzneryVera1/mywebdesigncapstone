@@ -186,6 +186,11 @@
         color: #001C3E;
         font-size: 50px;
     }
+     
+    .top {
+            font-size: 14px;
+    }
+                
     </style>
 </head>
 
@@ -194,12 +199,12 @@
     <nav class="navbar navbar-default bg-5">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="my_agency.html">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand w3-container w3-center w3-animate-opacity" href="#MDAgency">MD Agency</a>
+                <a class="navbar-brand w3-container w3-center w3-animate-opacity" href="my_agency.html">MD Agency</a>
             </div>
             <div class="collapse navbar-collapse w3-container w3-center w3-animate-opacity" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -273,19 +278,19 @@
             </div>
             <div class="col-sm-7">
                 <div class="row">
-                    <div class="col-sm-6 form-group">
+                    <label class="col-sm-6 form-group">
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                    </div>
-                    <div class="col-sm-6 form-group">
+                    </label>
+                    <label class="col-sm-6 form-group">
                         <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                    </div>
+                    </label>
                 </div>
                 <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
                 <br>
                 <div class="row">
-                    <div class="col-sm-12 form-group">
+                    <label class="col-sm-12 form-group">
                         <button class="btn btn-success pull-right" type="submit">Send</button>
-                    </div>
+                    </label>
                 </div>
             </div>
         </div>
@@ -325,7 +330,7 @@
     </div>
     <!-- Footer -->
     <footer class="container-fluid text-center bg-6">
-        <a href="#myNavbar" title="To Top">
+        <a href="my_agency.html" class="top">To Top
             <span class="glyphicon glyphicon-chevron-up" style="font-size: 30px;"></span>
         </a>
         <p>&copy; Copyright 2016 - 2017 Bootstrap Theme Made By <a href="http://www.w3schools.com" target="_blank">www.w3schools.com</a> and <a href="https://twitter.com/LuzneryVera" target="_blank"> @LuzneryVera</a> for <a href="https://www.coursera.org/learn/web-design-project" target="_blank"> Web Design for Everybody Capstone</a></p>
